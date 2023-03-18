@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyForm</title>
+</head>
+<body>
+           <h1 style="color:green">MY FORM</h1> <hr>
+<form action="" method="GET" name="F2">
+ <fieldset>
+           <legend><h2 style="color:brown">Personal Information</h2></legend>
+           <label>Name:</label> <input type="text" value="" name="myname" >
+           <label>pass:</label><input type="password" value="" name="pass"><br><br>
+           <label >Email:</label><input type="email" value="" name="gmail">
+           <label >Age:</label><input type="number" value="" name="myage" step="any"><br><br>
+           <label>D.O.B</label><input type="date" value="" name="dob"><br><br>
+           Picture: <input type="file"><br><br>
+           <label><b>Gender:</b> </label><br>
+           Male:<input type="radio" value="Male" name="N1" checked>
+           Female: <input type="radio" name="N1" value="Female">
+           Others: <input type="radio" name="N1" value="Others"><br><br>
+</fieldset>
+
+         <fieldset>
+                  <legend style="color:brown"><h2>Hobbies Education</h2></legend>
+                  <label><b>Degree: </b></label><br>
+                  <select size="3" multiple><option value="CS">Computer Science</option>
+                    <option value="EEE">Electrical Engineering</option>
+                    <option value="SE">Software Engineering</option>
+                    <option value="ENG-LIT">English literature</option>
+                </select><br><br>
+                  <label><b>Hobbies:</b></label><br>
+                   Sports<input type="checkbox" value="sports" name="H1" checked><br>
+                   Traveling <input type="checkbox" value="travel" name="H2"><br>
+                    Dancing <input type="checkbox" value="dance" name="H3"><br><br>
+                   <b> Range:</b> <input type="range" max="10" min="2"><br><br>                
+                    <label>Phone:</label><input type="tel">
+                    Fav Color: <input type="color"><br><br>
+                    Class Time: <input type="time">
+        </fieldset><br>
+     <b>Comments:</b> <br> <textarea cols="30" rows="5">Write your Comments...</textarea><br><br>
+    <input type="submit">
+   </form>
+
+</body>
+</html>
