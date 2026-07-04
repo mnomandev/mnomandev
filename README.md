@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on **MERN projects**
 
-- 🌱 I’m a **MERN Stack**
+- 🌱 I’m a **MERN Stack Developer** 
 
 - 💬 Ask me about **MERN**
 
